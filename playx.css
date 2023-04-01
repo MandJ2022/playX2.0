@@ -412,3 +412,6 @@ h3:hover {
     z-index: 1;
     background: transparent;
 }
+.non {
+    display: none;
+}
