@@ -57,9 +57,9 @@ header ul li a{
     position: fixed;
     display: flex;
     z-index: 0;
-    width: 1247px;
+    width: 1000px;
     -webkit-box-reflect: below -27px linear-gradient(transparent,transparent,#ffffff);
-    top: 143px;
+    top: 80px;
 }
 
 /* PLAYX */
@@ -283,9 +283,10 @@ header ul li a{
     width: 200px;
     height: 200px;
     object-fit: cover;
-    top: 1039px;
+    top: 743px;
     position: fixed;
-    left: 1052px;
+    left: 760px;
+    background: transparent;
 }
 .second {
     min-height: 70vh;
