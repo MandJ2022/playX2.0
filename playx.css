@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Audiowide', cursive;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+header{
+    width: 100%;
+    height: 50px;
+    padding: 30px;
+    top: 10px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 32, 61, 0.121);
+   
+}
+header a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+
+}
+header ul {
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    text-decoration: none;
+    overflow: auto;
+   
+}
+header ul li {
+    position: relative;
+    padding: 10px;
+    list-style-type: none;
+}
+
+header ul li a{
+    color: black;
+    text-decoration: none;
+    right: 50px;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+.first {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#logo {
+    position: fixed;
+    display: flex;
+    z-index: 0;
+    width: 1247px;
+    -webkit-box-reflect: below -27px linear-gradient(transparent,transparent,#ffffff);
+    top: 143px;
+}
+
+/* PLAYX */
+#logo path:nth-child(1)
+{
+    stroke-dasharray: 1526.93px;
+    stroke-dashoffset: 1526.93px;
+    animation: animate 3s ease forwards 0.1s;
+}
+#logo path:nth-child(2)
+{
+    stroke-dasharray: 788.24px;
+    stroke-dashoffset: 788.24px;
+    animation: animate 3s ease forwards 0.8s;
+}
+#logo path:nth-child(3)
+{
+    stroke-dasharray: 1479.34px;
+    stroke-dashoffset: 1479.34px;
+    animation: animate 3s ease forwards 1.2s;
+}
+#logo path:nth-child(4)
+{
+    stroke-dasharray: 1684.08px;
+    stroke-dashoffset: 1684.08px;
+    animation: animate 3s ease forwards 1.8s;
+}
+#logo path:nth-child(5)
+{
+    stroke-dasharray: 2037.78px;
+    stroke-dashoffset: 2037.78px;
+    animation: animate 6s ease forwards 3.4s, 3.4s ease forwards fillWhite 6.4s;
+}
+
+/*WEB3.0*/
+#logo path:nth-child(6)
+{
+    stroke-dasharray: 184.56px;
+    stroke-dashoffset: 184.56px;
+    animation: animate 6.5s ease forwards 3.6s;
+}
+#logo path:nth-child(7)
+{
+    stroke-dasharray: 136.90px;
+    stroke-dashoffset: 136.90px;
+    animation: animate 6.5s ease forwards 3.6s;
+}
+#logo path:nth-child(8)
+{
+    stroke-dasharray: 149.92px;
+    stroke-dashoffset: 149.92px;
+    animation: animate 6.5s ease forwards 3.6s;
+}
+#logo path:nth-child(9)
+{
+    stroke-dasharray: 168.61px;
+    stroke-dashoffset: 168.61px;
+    animation: animate 6.5s ease forwards 3.6s;
+}
+#logo path:nth-child(10)
+{
+    stroke-dasharray: 15.80px;
+    stroke-dashoffset: 15.80px;
+    animation: animate 6.5s ease forwards 3.6s;
+}
+#logo path:nth-child(11)
+{
+    stroke-dasharray: 219.57px;
+    stroke-dashoffset: 219.57px;
+    animation: animate 6.5s ease forwards 3.6s;
+}
+/* | */
+#logo path:nth-child(12)
+{
+    stroke-dasharray: 84.6px;
+    stroke-dashoffset: 84.6px;
+    animation: 3.4s ease forwards fillWhite 7s;
+}
+/*GAMING*/
+#logo path:nth-child(13)
+{
+    stroke-dasharray: 197.7px;
+    stroke-dashoffset: 197.7px;
+    animation: 3.4s ease forwards fillWhite 5.4s;
+}
+#logo path:nth-child(14)
+{
+    stroke-dasharray: 140.89px;
+    stroke-dashoffset: 140.89px;
+    animation: 3.4s ease forwards fillWhite 5.4s;
+}
+#logo path:nth-child(15)
+{
+    stroke-dasharray: 163.47px;
+    stroke-dashoffset: 163.47px;
+    animation: 3.4s ease forwards fillWhite 5.4s;
+
+}
+#logo path:nth-child(16)
+{
+    stroke-dasharray: 71.71px;
+    stroke-dashoffset: 71.71px;
+    animation: 3.4s ease forwards fillWhite 5.4s;
+}
+#logo path:nth-child(17)
+{
+    stroke-dasharray: 114.27px;
+    stroke-dashoffset: 114.27px;
+    animation: 3.4s ease forwards fillWhite 5.4s;
+}
+#logo path:nth-child(18)
+{
+    stroke-dasharray: 169.16px;
+    stroke-dashoffset: 169.16px;
+    animation: 3.4s ease forwards fillWhite 5.4s;
+}
+
+/* | */
+#logo path:nth-child(19)
+{
+    stroke-dasharray: 84.6px;
+    stroke-dashoffset: 84.6px;
+    animation: 3.4s ease forwards fillWhite 7s;
+}
+/* NEWS */
+#logo path:nth-child(20)
+{
+    stroke-dasharray: 166.97px;
+    stroke-dashoffset: 166.97px;
+    animation: 3.4s ease forwards fillWhite 6s;
+}
+#logo path:nth-child(21)
+{
+    stroke-dasharray: 136.9px;
+    stroke-dashoffset: 136.9px;
+    animation: 3.4s ease forwards fillWhite 6s;
+}
+#logo path:nth-child(22)
+{
+    stroke-dasharray: 155.2px;
+    stroke-dashoffset: 155.2px;
+    animation: 3.4s ease forwards fillWhite 6s;
+}
+#logo path:nth-child(23)
+{
+    stroke-dasharray: 129.9px;
+    stroke-dashoffset: 129.9px;
+    animation: 3.4s ease forwards fillWhite 6s;
+}
+/* | */
+#logo path:nth-child(24)
+{
+    stroke-dasharray: 84.6px;
+    stroke-dashoffset: 84.6px;
+    animation: 3.4s ease forwards fillWhite 7s;
+}
+/* HUB */
+#logo path:nth-child(25)
+{
+    stroke-dasharray: 157.77px;
+    stroke-dashoffset: 157.77px;
+    animation: 3.4s ease forwards fillWhite 6.5s;
+}
+#logo path:nth-child(26)
+{
+    stroke-dasharray: 114.29px;
+    stroke-dashoffset: 114.29px;
+    animation: 3.4s ease forwards fillWhite 6.5s;
+}
+#logo path:nth-child(27)
+{
+    stroke-dasharray: 149.92px;
+    stroke-dashoffset: 149.92px;
+    animation: 3.4s ease forwards fillWhite 6.5s;
+}
+/* | */
+#logo path:nth-child(28)
+{
+    stroke-dasharray: 84.6px;
+    stroke-dashoffset: 84.6px;
+    animation: 3.4s ease forwards fillWhite 7s;
+}
+
+@keyframes animate
+{
+    to {
+        stroke-dashoffset:  0;
+    }
+}
+@keyframes fillWhite
+{
+    
+    to {
+        fill: #fff;
+    }
+}
+.second {
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.secondimg {
+    position: relative;
+    display: flex;
+}
+
+.secondimg img {
+    object-fit: cover;
+    z-index: 1;
+}
+.text {
+    color: white;
+}
+.mvx {
+    display: flex;
+    position: static;
+}
+.mvx img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    top: 1039px;
+    position: fixed;
+    left: 1052px;
+}
+.second {
+    min-height: 70vh;
+    width: 100%;
+    box-shadow: -1px -2px 20px 0px #00daff;
+    border-radius: 10px;
+}
+.hubtext {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+.img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+.img img {
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+.third {
+    min-height: 70vh;
+    width: 100%;
+    box-shadow: -1px -2px 20px 0px #00daff;
+    z-index: -1;
+    position: relative;
+
+}
+.lobbytext {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+h2 {
+    color: #01f9dcc5;
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 4px #01fbde;
+    position: relative;
+    height: 100px;
+    top: 560px;
+    text-decoration: none;
+    width: 200px;
+    left: 1000px;
+    padding: 20px;
+    transition: 0.5s;
+    z-index: 1;
+    background: transparent;
+    
+}
+h2:hover {
+    color: #0189f9;
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 4px #0189f9;
+    position: relative;
+    height: 100px;
+    top: 560px;
+    text-decoration: none;
+    width: 200px;
+    left: 1000px;
+    padding: 20px;
+    transition: 0.5s;
+    z-index: 1;
+    background: transparent;
+
+}
+a {
+    justify-content: center;
+    position: relative;
+    justify-items: center;
+}
+.hubtext a{
+    text-decoration: none;
+}
+.fourth {
+    background: transparent;
+    box-shadow: -1px -2px 20px 0px #00daff;
+    z-index: 1;
+    position: relative;
+}
+.lobbytext a{
+    text-decoration: none;
+}
+h3 {
+    color: #01f9dc;
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 4px #01fbde;
+    position: relative;
+    height: 100px;
+    top: 500px;
+    text-decoration: none;
+    width: 200px;
+    left: 905px;
+    padding: 20px;
+    transition: 0.5s;
+    z-index: 1;
+    background: transparent;
+}
+h3:hover {
+    color: #0189f9;
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 4px #0189f9;
+    position: relative;
+    height: 100px;
+    top: 500px;
+    text-decoration: none;
+    width: 200px;
+    left: 905px;
+    padding: 20px;
+    transition: 0.5s;
+    z-index: 1;
+    background: transparent;
+}
