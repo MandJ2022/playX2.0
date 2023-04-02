@@ -541,5 +541,10 @@ p {
     background: transparent;
     font-size: 20px;
     top: 850px;
-
+}
+.markettext p {
+    z-index: 1;
+    background: transparent;
+    font-size: 20px;
+    top: 850px;
 }
