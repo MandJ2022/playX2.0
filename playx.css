@@ -418,7 +418,7 @@ ion-icon {
 }
 ion-icon:hover {
     height: 40px;
-    color: #01fbde;
+    color: #fb01ac;
     animation: time ease forwards 11s;
     background: transparent;
 }
