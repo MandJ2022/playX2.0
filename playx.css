@@ -689,3 +689,30 @@ p {
     background: transparent;
     text-decoration: none;
 }
+.nav-linkA {
+    filter: brightness(100);
+    background: transparent;
+    text-decoration: none;
+}
+.nav-linkA ion-icon {
+    color: #fb01f3;
+    
+}
+.nav-linkB ion-icon {
+    color: #fb01f3;
+    
+}
+.nav-linkC ion-icon {
+    color: #fb01f3;
+    
+}
+.nav-linkA{
+    background: transparent;
+}
+.nav-linkB{
+    background: transparent;
+}
+.nav-linkC{
+    background: transparent;
+}
+
