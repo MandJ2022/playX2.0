@@ -553,3 +553,22 @@ p {
     font-size: 20px;
     top: 678px;
 }
+.navbar-about {
+    width: 66px;
+    height: 43vh;
+    position: fixed;
+    z-index: 1;
+    background: transparent;
+    border-radius: 10px 10px 10px 10px;
+    background: #01fbde1a;
+    top: 253px;
+    box-shadow: inset 0px 0px 5px #01fbde;
+}
+#hublogo {
+    position: fixed;
+    display: flex;
+    z-index: 0;
+    width: 1000px;
+    -webkit-box-reflect: below -27px linear-gradient(transparent,transparent,#ffffff);
+    top: 120px;
+}
