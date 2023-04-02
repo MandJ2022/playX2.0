@@ -426,6 +426,7 @@ ion-icon {
 .nav-link {
     filter: grayscale(100%);
     background: transparent;
+    text-decoration: none;
 }
 .nav-link:hover {
     filter: grayscale(0%);
