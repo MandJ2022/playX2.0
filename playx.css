@@ -385,6 +385,7 @@ h3:hover {
     background: #01fbde1a;
     animation: time ease forwards 11s;
     top: 253px;
+    box-shadow: inset 0px 0px 5px #01fbde;
 }
 
 
