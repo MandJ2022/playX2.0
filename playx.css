@@ -414,7 +414,7 @@ ion-icon {
 }
 .link-text {
     color: #01fbde;
-    animation: time ease forwards 11s;
+    animation: time ease forwards 0.5s;
 }
 .link-text  {
     display: none;
