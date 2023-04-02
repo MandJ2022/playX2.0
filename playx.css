@@ -483,6 +483,7 @@ body::-webkit-scrollbar-thumb {
     background: transparent;
     box-shadow: -1px -2px 20px 0px #00daff;
     position: relative;
+    text-align: center;
 }
 .markettext a{
     text-decoration: none;
