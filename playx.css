@@ -402,6 +402,7 @@ header {
     padding-top: 247px;
     padding-bottom: 222px;
     background: #ffffff00;
+    animation: time ease forwards 11s;
 }
 
 .nav-item {
