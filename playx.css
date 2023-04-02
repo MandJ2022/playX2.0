@@ -380,6 +380,8 @@ h3:hover {
     width: 116px;
     height: 100vh;
     position: fixed;
+    z-index: 1;
+    background: transparent;
 
 }
 header {
@@ -396,9 +398,11 @@ header {
     text-align: center;
     padding-top: 156px;
     padding-bottom: 137px;
+    background: transparent;
 }
 .nav-item {
     height: 105px;
+    background: transparent;
 }
 .nav-item:last-child {
     margin-top: auto;
@@ -407,6 +411,7 @@ ion-icon {
     height: 56px;
     color: #01fbde;
     animation: time ease forwards 13s;
+    background: transparent;
 }
 .link-text {
     color: #01fbde;
@@ -420,6 +425,7 @@ ion-icon {
 }
 .nav-link {
     filter: grayscale(100%);
+    background: transparent;
 }
 .nav-link:hover {
     filter: grayscale(0%);
