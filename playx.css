@@ -639,13 +639,6 @@ p {
     background: transparent;
     text-decoration: none;
 }
-.navbar-hub ion-icon.md.hydrated {
-    height: 40px;
-    color: #fb01f3;
-    background: transparent;
-    width: 63px;
-    animation: none;
-}
 .navbar-market {
     width: 66px;
     height: 43vh;
