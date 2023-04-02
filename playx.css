@@ -383,6 +383,7 @@ h3:hover {
     background: transparent;
     border-radius: 0px 10px 10px 0px;
     background: #01fbde1a;
+    animation: time ease forwards 11s;
 }
 
 }
