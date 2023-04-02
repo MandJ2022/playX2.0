@@ -639,3 +639,53 @@ p {
     background: transparent;
     text-decoration: none;
 }
+.navbar-hub ion-icon.md.hydrated {
+    height: 40px;
+    color: #fb01f3;
+    background: transparent;
+    width: 63px;
+    animation: none;
+}
+.navbar-market {
+    width: 66px;
+    height: 43vh;
+    position: fixed;
+    z-index: 1;
+    background: transparent;
+    border-radius: 10px 10px 10px 10px;
+    background: #01fbde1a;
+    top: 253px;
+    box-shadow: inset 0px 0px 5px #01fbde;
+}
+.navbar-market ion-icon {
+    height: 40px;
+    color: #01fbde;
+    background: transparent;
+    width: 63px;
+    animation: none;
+}
+#marketlogo {
+    position: fixed;
+    display: flex;
+    z-index: 0;
+    width: 1000px;
+    -webkit-box-reflect: below -27px linear-gradient(transparent,transparent,#ffffff);
+    top: 120px;
+}
+.navbar-nav-market {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 335px;
+    background: #ffffff00;
+    height: 67vh;
+}
+.nav-link-market {
+    filter: brightness(100);
+    background: transparent;
+    text-decoration: none;
+}
