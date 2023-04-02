@@ -377,13 +377,14 @@ h3:hover {
 }
 .navbar {
     width: 66px;
-    height: 100vh;
+    height: 43vh;
     position: fixed;
     z-index: 1;
     background: transparent;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px 10px 10px 10px;
     background: #01fbde1a;
     animation: time ease forwards 11s;
+    top: 253px;
 }
 
 
@@ -399,16 +400,17 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 359px;
-    padding-bottom: 72px;
+    padding-top: 335px;
     background: #ffffff00;
     animation: time ease forwards 11s;
     height: 67vh;
 }
 
 .nav-item {
-    height: 105px;
+    height: 64px;
     background: transparent;
+    position: relative;
+    bottom: 272px;
 }
 .nav-item:last-child {
     margin-top: auto;
@@ -536,17 +538,17 @@ p {
     z-index: 1;
     background: transparent;
     font-size: 20px;
-    top: 850px;
+    top: 678px;
 }
 .hubtext p {
     z-index: 1;
     background: transparent;
     font-size: 20px;
-    top: 850px;
+    top: 678px;
 }
 .markettext p {
     z-index: 1;
     background: transparent;
     font-size: 20px;
-    top: 850px;
+    top: 678px;
 }
