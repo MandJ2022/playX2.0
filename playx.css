@@ -415,3 +415,82 @@ h3:hover {
 .non {
     display: none;
 }
+.navbar {
+    width: 116px;
+    height: 100vh;
+    position: fixed;
+
+}
+header {
+    position: relative;
+    display: contents;
+}
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 156px;
+    padding-bottom: 137px;
+}
+.nav-item {
+    height: 105px;
+}
+.nav-item:last-child {
+    margin-top: auto;
+}
+ion-icon {
+    height: 56px;
+    color: #01fbde;
+    animation: time ease forwards 13s;
+}
+.link-text {
+    color: #01fbde;
+    animation: time ease forwards 13s;
+}
+.link-text  {
+    display: none;
+}
+.navbar:hover .link-text {
+    display: block;
+}
+.nav-link {
+    filter: grayscale(100%);
+}
+.nav-link:hover {
+    filter: grayscale(0%);
+}
+body::-webkit-scrollbar {
+    width: 1rem;
+}
+body::-webkit-scrollbar.track {
+    background: #000000;
+}
+body::-webkit-scrollbar-thumb {
+    background: #01fbde;
+}
+@keyframes time
+{
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+
+}
