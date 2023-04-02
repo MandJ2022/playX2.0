@@ -399,10 +399,11 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 247px;
-    padding-bottom: 222px;
+    padding-top: 359px;
+    padding-bottom: 72px;
     background: #ffffff00;
     animation: time ease forwards 11s;
+    height: 67vh;
 }
 
 .nav-item {
