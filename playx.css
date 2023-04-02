@@ -408,14 +408,14 @@ header {
     margin-top: auto;
 }
 ion-icon {
-    height: 56px;
+    height: 40px;
     color: #01fbde;
-    animation: time ease forwards 13s;
+    animation: time ease forwards 11s;
     background: transparent;
 }
 .link-text {
     color: #01fbde;
-    animation: time ease forwards 13s;
+    animation: time ease forwards 11s;
 }
 .link-text  {
     display: none;
