@@ -524,3 +524,22 @@ h5:hover {
     position: relative;
     bottom: 885px;
 }
+p {
+    position: relative;
+    color: white;
+}
+
+
+.lobbytext p {
+    z-index: 1;
+    background: transparent;
+    font-size: 20px;
+    top: 850px;
+}
+.hubtext p {
+    z-index: 1;
+    background: transparent;
+    font-size: 20px;
+    top: 850px;
+
+}
