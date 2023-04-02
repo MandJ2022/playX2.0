@@ -419,7 +419,7 @@ ion-icon {
 }
 ion-icon:hover {
     height: 40px;
-    color: #fb01ac;
+    color: #3880ff;
     background: transparent;
     transform: rotate(360deg);
     transition: 3s;
