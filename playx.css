@@ -415,12 +415,15 @@ ion-icon {
     color: #01fbde;
     animation: time ease forwards 11s;
     background: transparent;
+    width: 63px;
 }
 ion-icon:hover {
     height: 40px;
     color: #fb01ac;
-    animation: time ease forwards 11s;
     background: transparent;
+    transform: rotate(360deg);
+    transition: 3s;
+    
 }
 .link-text {
     color: #01fbde;
