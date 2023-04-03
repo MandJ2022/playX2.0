@@ -425,7 +425,7 @@ ion-icon {
 }
 ion-icon:hover {
     height: 40px;
-    color: #3880ff;
+    color: #ff5f5f;
     background: transparent;
     transform: rotate(360deg);
     transition: 3s;
@@ -686,11 +686,11 @@ p {
     
 }
 .nav-linkB ion-icon {
-    color: #f90101;
+    color: #ff5f5f;
     
 }
 .nav-linkC ion-icon {
-    color: #f90101;
+    color: #ff5f5f;
     
 }
 .nav-linkA{
