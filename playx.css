@@ -542,18 +542,21 @@ p {
     background: transparent;
     font-size: 20px;
     top: 678px;
+    text-shadow: 0 0 7px black;
 }
 .hubtext p {
     z-index: 1;
     background: transparent;
     font-size: 20px;
     top: 678px;
+    text-shadow: 0 0 7px black;
 }
 .markettext p {
     z-index: 1;
     background: transparent;
     font-size: 20px;
     top: 678px;
+    text-shadow: 0 0 7px black;
 }
 .navbar-hub {
     width: 66px;
