@@ -683,7 +683,7 @@ p {
 }
 .navbar-profile {
     width: 66px;
-    height: 35vh;
+    height: 36vh;
     position: fixed;
     z-index: 1;
     background: transparent;
@@ -693,12 +693,11 @@ p {
     box-shadow: inset 0px 0px 5px #01fbde;
 }
 .navbar-profile ion-icon {
-    height: 32px;
+    height: 40px;
     color: #01fbde;
     background: transparent;
     width: 63px;
     animation: none;
-    right: 4px;
     position: relative;
 }
 #profilelogo {
@@ -717,7 +716,7 @@ p {
     text-align: center;
     padding-top: 335px;
     background: #ffffff00;
-    height: 67vh;
+    height: 74vh;
 }
 .nav-link-profile {
     filter: brightness(100);
@@ -739,6 +738,9 @@ p {
 }
 .nav-linkC ion-icon {
     color: #ff5f5f;
+}
+.nav-linkD ion-icon {
+    color: #ff5f5f;
     
 }
 .nav-linkA{
@@ -748,6 +750,10 @@ p {
     background: transparent;
 }
 .nav-linkC{
+    background: transparent;
+}
+.nav-linkD
+{
     background: transparent;
 }
 
