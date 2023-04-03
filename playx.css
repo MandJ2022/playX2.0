@@ -757,16 +757,3 @@ p {
 {
     background: transparent;
 }
-.open{
-    background: transparent;
-}
-
-.nav-itemS:hover
-{
-    border: 1px solid white;
-    border-radius: 10px;
-    position: relative;
-    height: 299px;
-    width: 330px;
-    left: 184px;
-}
