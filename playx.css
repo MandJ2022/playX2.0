@@ -412,7 +412,7 @@ header {
     height: 64px;
     background: transparent;
     position: relative;
-    bottom: 272px;
+    bottom: 327px;
 }
 .nav-item:last-child {
     margin-top: auto;
@@ -557,13 +557,13 @@ p {
 }
 .navbar-hub {
     width: 66px;
-    height: 43vh;
+    height: 36vh;
     position: fixed;
     z-index: 1;
     background: transparent;
     border-radius: 10px 10px 10px 10px;
     background: #01fbde1a;
-    top: 253px;
+    top: 308px;
     box-shadow: inset 0px 0px 5px #01fbde;
 }
 .navbar-hub ion-icon {
@@ -598,13 +598,13 @@ p {
 }
 .navbar-lobby {
     width: 66px;
-    height: 43vh;
+    height: 36vh;
     position: fixed;
     z-index: 1;
     background: transparent;
     border-radius: 10px 10px 10px 10px;
     background: #01fbde1a;
-    top: 253px;
+    top: 300px;
     box-shadow: inset 0px 0px 5px #01fbde;
 }
 .navbar-lobby ion-icon {
@@ -639,13 +639,13 @@ p {
 }
 .navbar-market {
     width: 66px;
-    height: 43vh;
+    height: 36vh;
     position: fixed;
     z-index: 1;
     background: transparent;
     border-radius: 10px 10px 10px 10px;
     background: #01fbde1a;
-    top: 253px;
+    top: 300px;
     box-shadow: inset 0px 0px 5px #01fbde;
 }
 .navbar-market ion-icon {
