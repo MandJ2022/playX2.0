@@ -681,6 +681,49 @@ p {
     background: transparent;
     text-decoration: none;
 }
+.navbar-profile {
+    width: 66px;
+    height: 35vh;
+    position: fixed;
+    z-index: 1;
+    background: transparent;
+    border-radius: 10px 10px 10px 10px;
+    background: #01fbde1a;
+    top: 300px;
+    box-shadow: inset 0px 0px 5px #01fbde;
+}
+.navbar-profile ion-icon {
+    height: 32px;
+    color: #01fbde;
+    background: transparent;
+    width: 63px;
+    animation: none;
+    right: 4px;
+    position: relative;
+}
+#profilelogo {
+    position: fixed;
+    display: flex;
+    z-index: 0;
+    width: 1000px;
+}
+.navbar-nav-profile {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 335px;
+    background: #ffffff00;
+    height: 67vh;
+}
+.nav-link-profile {
+    filter: brightness(100);
+    background: transparent;
+    text-decoration: none;
+}
 .nav-linkA {
     filter: brightness(100);
     background: transparent;
