@@ -834,7 +834,7 @@ body {
     position: absolute;
 }
 .social {
-        display: flex;
+    display: flex;
     position: absolute;
     top: 192px;
     z-index: 1;
