@@ -833,3 +833,15 @@ body {
 .tradingview-widget-container {
     position: absolute;
 }
+.social {
+        display: flex;
+    position: absolute;
+    top: 192px;
+    z-index: 1;
+    flex-direction: column;
+    height: 10px;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    padding-left: 2215px;
+}
