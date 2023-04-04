@@ -803,7 +803,7 @@ p {
     top: 100px;
     position: relative;
     box-shadow: 0px 0px 28px #ff5f5f;
-    filter: brightness(none);
+    filter: none;
     cursor: pointer;
 }
 @keyframes move-clouds-back {
