@@ -580,7 +580,7 @@ p {
 #hublogo {
     position: fixed;
     display: flex;
-    z-index: 0;
+    z-index: 1;
     width: 1000px;
 }
 .navbar-nav-hub {
