@@ -806,3 +806,27 @@ p {
     filter: blur(0px);
     cursor: pointer;
 }
+@keyframes move-clouds-back {
+    from {background-position: 0 0;}
+    to {background-position: 10000px 0;}
+}
+
+@keyframes move-twinkle-back {
+    from {background-position: 0 0;}
+    to {background-position: -10000px 5000px;}
+}
+
+.stars {
+    position: fixed;
+}
+.twinkling {
+    position: fixed;
+    background: transparent url(twinkling.png) repeat top center;
+    animation: move-twinkle-back 200s linear infinite;
+}
+.clouds  {
+    position: fixed;
+}
+body {
+    background: #000 url(stars1.png) repeat top center;
+}
