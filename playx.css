@@ -836,12 +836,12 @@ body {
 .social {
     display: flex;
     position: absolute;
-    top: 350px;
+    top: 371px;
     z-index: 1;
     flex-direction: column;
     height: 10px;
     align-content: flex-start;
     flex-wrap: nowrap;
     align-items: stretch;
-    padding-left: 1624px;
+    padding-left: 1616px;
 }
