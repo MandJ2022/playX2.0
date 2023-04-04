@@ -830,3 +830,6 @@ p {
 body {
     background: #000 url(stars1.png) repeat top center;
 }
+.tradingview-widget-container {
+    position: absolute;
+}
