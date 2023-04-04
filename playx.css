@@ -784,7 +784,7 @@ p {
     top: 100px;
     position: relative;
     box-shadow: 0px 0px 12px #01f9dc;
-    filter: blur(2px);
+    filter: brightness(0.5);
 }
 #h7 {
     position: relative;
@@ -803,7 +803,7 @@ p {
     top: 100px;
     position: relative;
     box-shadow: 0px 0px 28px #ff5f5f;
-    filter: blur(0px);
+    filter: brightness(none);
     cursor: pointer;
 }
 @keyframes move-clouds-back {
