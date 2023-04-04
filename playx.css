@@ -777,7 +777,7 @@ p {
 .face img {
     object-fit: cover;
     border-radius: 39px;
-    width: 361px;
+    width: 415px;
     height: 725px;
     top: 100px;
     position: relative;
@@ -800,6 +800,7 @@ p {
     height: 725px;
     top: 100px;
     position: relative;
-    box-shadow: 0px 0px 28px #01f9dc;
+    box-shadow: 0px 0px 28px #ff5f5f;
     filter: blur(0px);
+    cursor: pointer;
 }
