@@ -873,15 +873,7 @@ body {
     filter: brightness(0.5);
     animation: animate 5s linear infinite;
 }
-#h7 {
-    position: relative;
-    display: flex;
-    left: -55px;
-    background: transparent;
-    text-align: center;
-    top: 545px;
-    font-size: x-large;
-}
+
 .face-market img:hover {
     object-fit: cover;
     border-radius: 39px;
@@ -893,4 +885,10 @@ body {
     filter: brightness(none);
     cursor: pointer;
     animation: animate 5s linear infinite;
+}
+
+h7 {
+    position: relative;
+    left: 212px;
+    bottom: 285px;
 }
