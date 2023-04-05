@@ -960,7 +960,7 @@ p3 {
     text-align: center;
 }
 .info {
-    height: 54px;
+    height: 40px;
     color: white;
     right: 0;
     position: relative;
@@ -968,16 +968,16 @@ p3 {
     left: 1148px;
     display: flex;
     border: 1px solid #01f9dc;
-    background: #ffffff00;
-    box-shadow: inset 0px 0px 5px #00ffce;
+    background: #000000;
+    box-shadow: inset 0px 0px 9px #2f2f2f;
     border-radius: 30px;
 }
 p12 {
     color: #f4f5f8;
     position: relative;
     font-size: 20px;
-    left: 1055px;
-    top: 163px;
+    left: 527px;
+    top: 171px;
     padding: 33px;
     text-shadow: 0px 0px 15px #000000;
 }
@@ -985,8 +985,8 @@ p13 {
     color: white;
     position: relative;
     font-size: 13px;
-    top: 162px;
-    left: 1173px;
+    top: 170px;
+    left: 636px;
     padding: 30px;
     text-shadow: 0px 0px 15px #000000;
 }
@@ -1028,9 +1028,14 @@ p12:hover {
 }
 
 .cover img {
-    height: 200px;
-    width: 500px;
+        height: 200px;
+    width: 1018px;
     position: relative;
-    top: 142px;
-    left: 874px;
+    top: 127px;
+    left: 343px;
+    border-radius: 29px;
+    object-fit: cover;
+    z-index: -1;
+    border: 2px solid #01f9dc;
+    box-shadow: 0px 0px 15px 2px #01f9dc;
 }
