@@ -823,6 +823,7 @@ p {
     position: fixed;
     background: transparent url(twinkling.png) repeat top center;
     animation: move-twinkle-back 200s linear infinite;
+    z-index: -2;
 }
 .clouds  {
     position: fixed;
