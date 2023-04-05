@@ -944,8 +944,8 @@ p3 {
 .profile-main img {
     height: 150px;
     width: 150px;
-    top: 357px;
-    right: 347px;
+    top: 149px;
+    right: 235px;
     position: fixed;
     border-radius: 30%;
     object-fit: cover;
@@ -964,29 +964,31 @@ p3 {
     color: white;
     right: 0;
     position: relative;
-    top: 400px;
-    left: 1597px;
+    top: 204px;
+    left: 1148px;
     display: flex;
     border: 1px solid #01f9dc;
-    border-radius: 19px;
-    background: #01fbde1a;
-    box-shadow: inset 0px 0px 5px #01f9dc;
+    background: #ffffff00;
+    box-shadow: inset 0px 0px 5px #00ffce;
+    border-radius: 30px;
 }
 p12 {
-    color: white;
+    color: #f4f5f8;
     position: relative;
     font-size: 20px;
-    left: 1325px;
-    top: 358px;
+    left: 1055px;
+    top: 163px;
     padding: 33px;
+    text-shadow: 0px 0px 15px #000000;
 }
 p13 {
     color: white;
     position: relative;
-    font-size: 20px;
-    top: 358px;
-    left: 1455px;
+    font-size: 13px;
+    top: 162px;
+    left: 1173px;
     padding: 30px;
+    text-shadow: 0px 0px 15px #000000;
 }
 .info:hover {
     height: 54px;
@@ -1004,4 +1006,20 @@ p13 {
 
 p12:hover {
     color: #f501f9;
+}
+
+.done {
+    position: relative
+}
+
+.done1 {
+    width: 1073px;
+    height: 206px;
+    border: 1px solid white;
+    top: 124px;
+    position: relative;
+    right: 300px;
+    border-radius: 26px;
+    z-index: -1;
+    background: #00fff833;
 }
