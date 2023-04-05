@@ -1040,3 +1040,12 @@ p12:hover {
     border: 2px solid #01f9dc;
     box-shadow: 0px 0px 15px 2px #01f9dc;
 }
+.profile-info {
+    width: 50%;
+}
+
+.profile-info-full {
+    border: 1px solid white;
+    height: 846px;
+    position: relative;
+}
