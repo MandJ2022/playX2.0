@@ -1045,7 +1045,14 @@ p12:hover {
 }
 
 .profile-info-full {
-    border: 1px solid white;
-    height: 846px;
+    border: 1px solid #01f9dc;
+    height: 553px;
     position: relative;
+    width: 1047px;
+    right: 100px;
+    border-radius: 38px 38px 5px 5px;
+    background: #141414;
+    z-index: -2;
+    bottom: 51px;
+    box-shadow: inset 0px 0px 12px #01f9dc;
 }
