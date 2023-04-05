@@ -1023,3 +1023,14 @@ p12:hover {
     z-index: -1;
     background: #00fff833;
 }
+.cover {
+    position: relative;
+}
+
+.cover img {
+    height: 200px;
+    width: 500px;
+    position: relative;
+    top: 142px;
+    left: 874px;
+}
