@@ -857,7 +857,6 @@ body {
     color: white;
     display: flex;
     flex-direction: row;
-    align-content: space-around;
     justify-content: space-around;
     background: transparent;
     flex-wrap: wrap;
