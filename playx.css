@@ -935,3 +935,9 @@ p3 {
 .lobby-main {
     padding: 78px;
 }
+.lobby-top {
+    position: absolute;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
