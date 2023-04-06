@@ -1145,3 +1145,34 @@ p12:hover {
     position: relative;
     top: 0;
 }
+.aoz-second {
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 27px;
+}
+
+.aoz-headlines {
+    background: #00ffd5;
+    z-index: 1;
+    padding: 10px;
+    border: 6px solid black;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aoz-text {
+    background: #00ffd5;
+    z-index: 1;
+    padding: 10px;
+    border: 6px solid black;
+    border-radius: 14px;
+}
+
+p1 {
+    border-radius: 10px;
+    background: #141414;
+    color: white;
+    box-shadow: inset 0px 0px 11px #00463e;
+}
