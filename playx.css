@@ -1064,3 +1064,7 @@ p12:hover {
     z-index: 0;
     width: 1000px;
 }
+.face a {
+    position: relative;
+    height: 0;
+}
