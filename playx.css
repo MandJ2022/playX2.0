@@ -1137,7 +1137,7 @@ p12:hover {
 #cyberlogo {
     position: fixed;
     display: flex;
-    z-index: 0;
+    z-index: -1;
     width: 1000px;
 }
 
@@ -1249,4 +1249,6 @@ p1 {
 .mafiadone img {
     object-fit: contain;
     filter: brightness(0.8);
+    z-index: -1;
+    position: relative;
 }
