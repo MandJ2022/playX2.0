@@ -1058,3 +1058,9 @@ p12:hover {
     bottom: 51px;
     box-shadow: inset 0px 0px 12px #01f9dc;
 }
+#aozlogo {
+    position: fixed;
+    display: flex;
+    z-index: 0;
+    width: 1000px;
+}
