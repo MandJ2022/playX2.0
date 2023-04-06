@@ -764,6 +764,8 @@ p {
     position: relative;
     min-height: 100vh;
     width: 100%;
+    padding-left: 203px;
+    padding-top: 179px;
 }
 .face {
     z-index: 10;
