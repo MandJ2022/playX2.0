@@ -1120,6 +1120,7 @@ p12:hover {
     left: 0;
     top: 0;
     border-radius: 10px;
+    top: 100px;
 }
 
 @keyframes glowing {
