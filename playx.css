@@ -780,8 +780,8 @@ p {
 .face img {
     object-fit: cover;
     border-radius: 39px;
-    width: 415px;
-    height: 725px;
+    width: 337px;
+    height: 652px;
     top: 100px;
     position: relative;
     box-shadow: 0px 0px 12px #01f9dc;
@@ -799,8 +799,8 @@ p {
 .face img:hover {
     object-fit: cover;
     border-radius: 39px;
-    width: 415px;
-    height: 725px;
+    width: 337px;
+    height: 652px;
     top: 100px;
     position: relative;
     box-shadow: 0px 0px 28px #ff5f5f;
