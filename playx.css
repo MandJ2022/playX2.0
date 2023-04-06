@@ -1209,11 +1209,13 @@ p1 {
     text-align: center;
 }
 .cyber-sum {
-    color: white;
+    color: #fff;
     width: 50%;
     position: fixed;
-    top: 676px;
+    top: 486px;
     height: 300px;
+    z-index: 1;
+    filter: drop-shadow(2px 4px 6px black);
 }
 .cyber-second {
     display: flex;
