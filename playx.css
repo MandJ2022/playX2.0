@@ -1029,10 +1029,10 @@ p12:hover {
 }
 
 .cover img {
-        height: 200px;
+    height: 160px;
     width: 1018px;
     position: relative;
-    top: 127px;
+    top: 144px;
     left: 343px;
     border-radius: 29px;
     object-fit: cover;
@@ -1050,7 +1050,7 @@ p12:hover {
     position: relative;
     width: 1047px;
     right: 100px;
-    border-radius: 38px 38px 5px 5px;
+    border-radius: 38px 38px 38px 38px;
     background: #141414;
     z-index: -2;
     bottom: 51px;
