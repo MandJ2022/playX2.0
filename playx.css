@@ -1177,3 +1177,19 @@ p1 {
     color: white;
     box-shadow: inset 0px 0px 11px #00463e;
 }
+.aoz-first {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.aoz-sum {
+    color: white;
+    width: 50%;
+    position: fixed;
+    top: 676px;
+    height: 300px;
+}
