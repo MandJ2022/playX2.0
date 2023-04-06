@@ -1077,8 +1077,8 @@ p12:hover {
     position: relative;
     z-index: 1;
     border-radius: 10px;
-    left: 43.5%;
-    top: 815px;
+    left: 266px;
+    top: 250px;
     font-size: 15px;
     position: fixed;
 }
@@ -1253,4 +1253,20 @@ p1 {
     filter: brightness(0.8);
     z-index: -1;
     position: relative;
+}
+.aoz-news .glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #000;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    left: 652px;
+    top: 741px;
+    font-size: 15px;
+    position: fixed;
+
 }
