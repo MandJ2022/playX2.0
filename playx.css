@@ -1081,6 +1081,7 @@ p12:hover {
     left: 44%;
     top: 815px;
     font-size: 15px;
+    position: fixed;
 }
 
 .glow-on-hover:before {
