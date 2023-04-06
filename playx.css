@@ -1246,3 +1246,7 @@ p1 {
     transform: scale(.5);
     right: 579px;
 }
+.mafiadone img {
+    object-fit: contain;
+    filter: brightness(0.8);
+}
