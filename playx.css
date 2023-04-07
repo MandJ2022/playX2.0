@@ -1319,52 +1319,54 @@ p2 {
 }
 .portofolio {
     position: fixed;
-    width: 500px;
+    width: 376px;
     height: 200px;
-    border: 5px solid #a3a3a3;
+    border: 5px solid #01f9dc;
     bottom: 173px;
     border-radius: 10px;
-    background: cadetblue;
+    background: black;
     filter: drop-shadow(2px 4px 6px black);
-    left: 262px;
-    top: 480px;
+    left: 322px;
+    top: 475px;
 }
 p16 {
     color: white;
     position: fixed;
     top: 2px;
     filter: drop-shadow(2px 4px 6px black);
-    right: 169px;
+    right: 106px;
     height: 23px;
     width: 174px;
     border-bottom: 2px solid white;
 }
 .power {
-    position: relative;
-    height: 23px;
-    width: 125px;
-    color: white;
-    box-shadow: 0px 0px 3px 3px #01fbde;
-    border-radius: 7px;
-    left: 1299px;
-    top: 166px;
+    position: fixed;
+    width: 376px;
+    height: 200px;
+    border: 5px solid #01f9dc;
+    bottom: 173px;
+    border-radius: 10px;
+    background: black;
+    filter: drop-shadow(2px 4px 6px black);
+    left: 506px;
+    top: -5px;
 }
 
 .power ion-icon {
     position: relative;
-    top: 5px;
+    bottom: 66px;
 }
 .chart {
     position: fixed;
-    width: 268px;
+    width: 376px;
     height: 200px;
     border: 5px solid #a3a3a3;
     bottom: 173px;
     border-radius: 10px;
     background: cadetblue;
     filter: drop-shadow(2px 4px 6px black);
-    left: 537px;
-    top: 252px;
+    left: 506px;
+    top: -5px;
 }
 
 .chart1 {
