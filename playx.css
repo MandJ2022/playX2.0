@@ -21,7 +21,7 @@ body {
     display: flex;
     z-index: 0;
     width: 1000px;
-    top: 120px;
+    top: 90px;
 }
 
 /* PLAYX */
@@ -245,9 +245,9 @@ body {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    top: 743px;
+    top: 666px;
     position: fixed;
-    left: 731px;
+    left: 647px;
     background: transparent;
 }
 .second {
