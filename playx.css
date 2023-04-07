@@ -946,7 +946,7 @@ p3 {
 .profile-main img {
     height: 150px;
     width: 150px;
-    top: 145px;
+    top: 52px;
     right: 104px;
     position: fixed;
     border-radius: 30%;
@@ -966,7 +966,7 @@ p3 {
     height: 34px;
     color: white;
     position: relative;
-    top: 204px;
+    top: 112px;
     left: 1120px;
     display: flex;
     border: 1px solid #01f9dc;
@@ -979,7 +979,7 @@ p12 {
     position: relative;
     font-size: 20px;
     left: 570px;
-    top: 174px;
+    top: 83px;
     padding: 33px;
     text-shadow: 0px 0px 15px #000000;
 }
@@ -987,7 +987,7 @@ p13 {
     color: white;
     position: relative;
     font-size: 13px;
-    top: 170px;
+    top: 78px;
     left: 677px;
     padding: 30px;
     text-shadow: 0px 0px 15px #000000;
@@ -1033,7 +1033,7 @@ p12:hover {
     height: 116px;
     width: 1074px;
     position: relative;
-    top: 165px;
+    top: 70px;
     left: 236px;
     border-radius: 29px;
     object-fit: cover;
@@ -1048,14 +1048,14 @@ p12:hover {
 
 .profile-info-full {
     border: 1px solid #01f9dc;
-    height: 512px;
+    height: 656px;
     position: relative;
     width: 1047px;
     right: 141px;
     border-radius: 38px 38px 38px 38px;
     background: #141414;
     z-index: -2;
-    bottom: 13px;
+    bottom: 32px;
     box-shadow: inset 0px 0px 12px #01f9dc;
 }
 #aozlogo {
