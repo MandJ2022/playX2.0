@@ -1315,7 +1315,21 @@ p2 {
 }
 .portofolio {
     position: fixed;
-    width: 100%;
-    right: 0;
+    width: 500px;
     height: 200px;
+    border: 5px solid #a3a3a3;
+    bottom: 173px;
+    border-radius: 10px;
+    background: cadetblue;
+    filter: drop-shadow(2px 4px 6px black);
+}
+p16 {
+    color: white;
+    position: fixed;
+    top: 2px;
+    filter: drop-shadow(2px 4px 6px black);
+    right: 169px;
+    height: 23px;
+    width: 174px;
+    border-bottom: 2px solid white;
 }
