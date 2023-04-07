@@ -1303,3 +1303,19 @@ p2 {
     top: 136px;
     transform: scale(.9);
 }
+.details {
+    border: 1px solid white;
+    height: 200px;
+    position: relative;
+    top: 200px;
+}
+
+.details p15 {
+    color: white;
+}
+.portofolio {
+    position: fixed;
+    width: 100%;
+    right: 0;
+    height: 200px;
+}
