@@ -706,7 +706,7 @@ p {
 #profilelogo {
     position: fixed;
     display: flex;
-    z-index: 0;
+    z-index: -10;
     width: 1000px;
 }
 .navbar-nav-profile {
@@ -945,13 +945,14 @@ p3 {
 .profile-main img {
     height: 150px;
     width: 150px;
-    top: 149px;
-    right: 235px;
+    top: 145px;
+    right: 104px;
     position: fixed;
     border-radius: 30%;
     object-fit: cover;
     border: 5px solid #01fbde;
-    box-shadow: 0px 0px 20px 4px #01f9dc;
+    box-shadow: 0px 0px 10px 4px #01f9dc;
+    filter: drop-shadow(2px 4px 6px black);
 }
 .profile-main {
     position: fixed;
@@ -961,12 +962,11 @@ p3 {
     text-align: center;
 }
 .info {
-    height: 40px;
+    height: 34px;
     color: white;
-    right: 0;
     position: relative;
     top: 204px;
-    left: 1148px;
+    left: 1120px;
     display: flex;
     border: 1px solid #01f9dc;
     background: #000000;
@@ -977,8 +977,8 @@ p12 {
     color: #f4f5f8;
     position: relative;
     font-size: 20px;
-    left: 527px;
-    top: 171px;
+    left: 570px;
+    top: 174px;
     padding: 33px;
     text-shadow: 0px 0px 15px #000000;
 }
@@ -987,7 +987,7 @@ p13 {
     position: relative;
     font-size: 13px;
     top: 170px;
-    left: 636px;
+    left: 677px;
     padding: 30px;
     text-shadow: 0px 0px 15px #000000;
 }
@@ -1029,16 +1029,17 @@ p12:hover {
 }
 
 .cover img {
-    height: 160px;
-    width: 1018px;
+    height: 116px;
+    width: 1074px;
     position: relative;
-    top: 144px;
-    left: 343px;
+    top: 165px;
+    left: 236px;
     border-radius: 29px;
     object-fit: cover;
     z-index: -1;
     border: 2px solid #01f9dc;
     box-shadow: 0px 0px 15px 2px #01f9dc;
+    filter: drop-shadow(2px 4px 6px black);
 }
 .profile-info {
     width: 50%;
@@ -1046,14 +1047,14 @@ p12:hover {
 
 .profile-info-full {
     border: 1px solid #01f9dc;
-    height: 553px;
+    height: 512px;
     position: relative;
     width: 1047px;
-    right: 100px;
+    right: 141px;
     border-radius: 38px 38px 38px 38px;
     background: #141414;
     z-index: -2;
-    bottom: 51px;
+    bottom: 13px;
     box-shadow: inset 0px 0px 12px #01f9dc;
 }
 #aozlogo {
