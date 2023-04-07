@@ -295,15 +295,15 @@ h2 {
     text-shadow: 0px 0px 4px #01fbde;
     position: relative;
     height: 100px;
-    top: 408px;
+    top: 360px;
     text-decoration: none;
     width: 200px;
-    left: 661px;
+    left: 585px;
     padding: 20px;
     transition: 0.5s;
     z-index: 1;
     background: transparent;
-    text-shadow: 0 0 10px black;
+    filter: drop-shadow(2px 4px 6px black);
     
 }
 h2:hover {
@@ -313,15 +313,15 @@ h2:hover {
     letter-spacing: 3px;
     position: relative;
     height: 100px;
-    top: 408px;
+    top: 360px;
     text-decoration: none;
     width: 200px;
-    left: 661px;
+    left: 585px;
     padding: 20px;
     transition: 0.5s;
     z-index: 1;
     background: transparent;
-    text-shadow: 0 0 10px black;
+    filter: drop-shadow(2px 4px 6px black);
 
 }
 a {
@@ -348,7 +348,7 @@ h3 {
     text-shadow: 0px 0px 4px #01fbde;
     position: relative;
     height: 100px;
-    top: 379px;
+    top: 354px;
     text-decoration: none;
     width: 200px;
     left: 616px;
@@ -356,7 +356,7 @@ h3 {
     transition: 0.5s;
     z-index: 1;
     background: transparent;
-    text-shadow: 0 0 10px black;
+    filter: drop-shadow(2px 4px 6px black);
 }
 h3:hover {
     color: #ff5f5f;
@@ -365,7 +365,7 @@ h3:hover {
     letter-spacing: 3px;
     position: relative;
     height: 100px;
-    top: 379px;
+    top: 354px;
     text-decoration: none;
     width: 200px;
     left: 616px;
@@ -373,7 +373,7 @@ h3:hover {
     transition: 0.5s;
     z-index: 1;
     background: transparent;
-    text-shadow: 0 0 10px black;
+    filter: drop-shadow(2px 4px 6px black);
 }
 .non {
     display: none;
@@ -506,12 +506,12 @@ h5 {
     top: 354px;
     text-decoration: none;
     width: 200px;
-    left: 400px;
+    left: 300px;
     padding: 20px;
     transition: 0.5s;
     z-index: 1;
     background: transparent;
-    text-shadow: 0 0 10px black;
+    filter: drop-shadow(2px 4px 6px black);
 }
 h5:hover {
     color: #ff5f5f;
@@ -523,16 +523,16 @@ h5:hover {
     top: 354px;
     text-decoration: none;
     width: 200px;
-    left: 400px;
+    left: 300px;
     padding: 20px;
     transition: 0.5s;
     z-index: 1;
     background: transparent;
-    text-shadow: 0 0 10px black;
+    filter: drop-shadow(2px 4px 6px black);
 }
 .fifth .img {
     position: relative;
-    bottom: 885px;
+    bottom: 796px;
 }
 p {
     position: relative;
@@ -544,22 +544,22 @@ p {
     z-index: 1;
     background: transparent;
     font-size: 20px;
-    top: 678px;
+    top: 654px;
     text-shadow: 0 0 7px black;
 }
 .hubtext p {
     z-index: 1;
     background: transparent;
     font-size: 20px;
-    top: 678px;
-    text-shadow: 0 0 7px black;
+    top: 656px;
+    filter: drop-shadow(2px 4px 6px black);
 }
 .markettext p {
     z-index: 1;
     background: transparent;
     font-size: 20px;
-    top: 678px;
-    text-shadow: 0 0 7px black;
+    top: 618px;
+    filter: drop-shadow(2px 4px 6px black);
 }
 .navbar-hub {
     width: 66px;
