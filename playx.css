@@ -1333,3 +1333,18 @@ p16 {
     width: 174px;
     border-bottom: 2px solid white;
 }
+.power {
+    position: relative;
+    height: 23px;
+    width: 125px;
+    color: white;
+    box-shadow: 0px 0px 3px 3px #01fbde;
+    border-radius: 7px;
+    left: 1299px;
+    top: 166px;
+}
+
+.power ion-icon {
+    position: relative;
+    top: 5px;
+}
