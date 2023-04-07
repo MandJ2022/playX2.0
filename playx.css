@@ -842,14 +842,14 @@ body {
 .social {
     display: flex;
     position: absolute;
-    top: 371px;
+    top: 301px;
     z-index: 1;
     flex-direction: column;
     height: 10px;
     align-content: flex-start;
     flex-wrap: nowrap;
     align-items: stretch;
-    padding-left: 1453px;
+    padding-left: 1443px;
 }
 .content-market {
     display: flex;
