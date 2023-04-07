@@ -272,6 +272,7 @@ body {
     width: 100%;
     position: relative;
     border-radius: 10px;
+    filter: drop-shadow(2px 4px 6px black);
 }
 .third {
     min-height: 70vh;
