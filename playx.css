@@ -247,8 +247,9 @@ body {
     object-fit: contain;
     background: transparent;
     width: 331px;
-    padding-top: 554px;
+    padding-top: 658px;
     position: fixed;
+    padding-left: 42px;
 }
 .second {
     width: 100%;
@@ -414,9 +415,7 @@ header {
     position: relative;
     bottom: 327px;
 }
-.nav-item:last-child {
-    margin-top: auto;
-}
+
 ion-icon {
     height: 40px;
     color: #01fbde;
