@@ -251,7 +251,6 @@ body {
     background: transparent;
 }
 .second {
-    min-height: 70vh;
     width: 100%;
     box-shadow: -1px -2px 20px 0px #00daff;
     border-radius: 10px;
@@ -259,8 +258,9 @@ body {
 .hubtext {
     position: absolute;
     text-align: center;
-    justify-content: center;
     width: 100%;
+    display: grid;
+    justify-content: center;
 }
 .img {
     object-fit: cover;
@@ -297,8 +297,6 @@ h2 {
     height: 100px;
     top: 360px;
     text-decoration: none;
-    width: 200px;
-    left: 585px;
     padding: 20px;
     transition: 0.5s;
     z-index: 1;
@@ -316,8 +314,6 @@ h2:hover {
     height: 100px;
     top: 360px;
     text-decoration: none;
-    width: 200px;
-    left: 585px;
     padding: 20px;
     transition: 0.5s;
     z-index: 1;
@@ -351,8 +347,6 @@ h3 {
     height: 100px;
     top: 354px;
     text-decoration: none;
-    width: 200px;
-    left: 616px;
     padding: 20px;
     transition: 0.5s;
     z-index: 1;
@@ -369,8 +363,6 @@ h3:hover {
     height: 100px;
     top: 354px;
     text-decoration: none;
-    width: 200px;
-    left: 616px;
     padding: 20px;
     transition: 0.5s;
     z-index: 1;
@@ -508,8 +500,6 @@ h5 {
     height: 100px;
     top: 354px;
     text-decoration: none;
-    width: 200px;
-    left: 300px;
     padding: 20px;
     transition: 0.5s;
     z-index: 1;
@@ -525,8 +515,6 @@ h5:hover {
     height: 100px;
     top: 354px;
     text-decoration: none;
-    width: 200px;
-    left: 300px;
     padding: 20px;
     transition: 0.5s;
     z-index: 1;
@@ -840,17 +828,14 @@ body {
     position: absolute;
 }
 .social {
-    display: flex;
     position: absolute;
-    top: 301px;
+    top: 371px;
     z-index: 1;
-    flex-direction: column;
-    height: 10px;
     align-content: flex-start;
-    flex-wrap: nowrap;
-    align-items: stretch;
-    width: 50px;
-    left: 1450px;
+    align-items: baseline;
+    display: grid;
+    justify-items: stretch;
+    justify-content: end;
 }
 .content-market {
     display: flex;
@@ -1378,4 +1363,9 @@ p17 {
     border-bottom: 2px solid white;
     position: relative;
     top: 2px;
+}
+.social a {
+    position: relative;
+    justify-items: center;
+    height: 49px;
 }
