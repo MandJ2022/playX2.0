@@ -772,7 +772,6 @@ p {
     color: white;
     display: flex;
     flex-direction: row;
-    align-content: space-around;
     justify-content: space-around;
     background: transparent;
 }
@@ -780,12 +779,17 @@ p {
 .face img {
     object-fit: cover;
     border-radius: 39px;
-    width: 337px;
-    height: 652px;
-    top: 100px;
+    width: 335px;
+    height: 649px;
     position: relative;
-    box-shadow: 0px 0px 12px #01f9dc;
-    filter: brightness(0.5);
+    filter: none;
+    left: 2px;
+    top: 2px;
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    border-radius: 35px;
+    filter: blur(1px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
 }
 #h7 {
     position: relative;
@@ -799,12 +803,17 @@ p {
 .face img:hover {
     object-fit: cover;
     border-radius: 39px;
-    width: 337px;
-    height: 652px;
-    top: 100px;
+    width: 335px;
+    height: 649px;
     position: relative;
-    box-shadow: 0px 0px 28px #ff5f5f;
     filter: none;
+    left: 2px;
+    top: 2px;
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    border-radius: 35px;
+    filter: blur(1px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
     cursor: pointer;
 }
 @keyframes move-clouds-back {
@@ -1064,7 +1073,14 @@ p12:hover {
 }
 .face a {
     position: relative;
-    height: 0;
+    width: 339px;
+    height: 654px;
+    top: 125px;
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    border-radius: 35px;
+    filter: blur(1px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
 }
 .glow-on-hover {
     width: 220px;
