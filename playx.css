@@ -849,7 +849,8 @@ body {
     align-content: flex-start;
     flex-wrap: nowrap;
     align-items: stretch;
-    padding-left: 1443px;
+    width: 50px;
+    left: 1450px;
 }
 .content-market {
     display: flex;
