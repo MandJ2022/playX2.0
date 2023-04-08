@@ -1352,6 +1352,7 @@ p16 {
 .power ion-icon {
     position: relative;
     bottom: 64px;
+    animation: none;
 }
 .chart {
     position: fixed;
