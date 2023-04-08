@@ -285,8 +285,10 @@ body {
 .lobbytext {
     position: absolute;
     text-align: center;
-    justify-content: center;
     width: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: space-between;
 }
 h2 {
     color: #01f9dcc5;
@@ -337,6 +339,9 @@ a {
 }
 .lobbytext a{
     text-decoration: none;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 h3 {
     color: #01f9dc;
@@ -345,7 +350,6 @@ h3 {
     letter-spacing: 3px;
     position: relative;
     height: 100px;
-    top: 354px;
     text-decoration: none;
     padding: 20px;
     transition: 0.5s;
@@ -361,7 +365,6 @@ h3:hover {
     letter-spacing: 3px;
     position: relative;
     height: 100px;
-    top: 354px;
     text-decoration: none;
     padding: 20px;
     transition: 0.5s;
@@ -533,11 +536,14 @@ p {
 
 
 .lobbytext p {
+    text-shadow: 0 0 7px black;
     z-index: 1;
     background: transparent;
     font-size: 20px;
-    top: 654px;
-    text-shadow: 0 0 7px black;
+    filter: drop-shadow(2px 4px 6px black);
+    position: relative;
+    bottom: 100px;
+    height: 100px;
 }
 .hubtext p {
     z-index: 1;
