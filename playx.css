@@ -1073,13 +1073,12 @@ p12:hover {
     outline: none;
     color: #000;
     cursor: pointer;
-    position: relative;
     z-index: 1;
     border-radius: 10px;
-    left: 266px;
-    top: 250px;
+    left: 130px;
+    top: 262px;
     font-size: 15px;
-    position: fixed;
+
 }
 
 .glow-on-hover:before {
@@ -1137,12 +1136,11 @@ p12:hover {
     position: fixed;
     display: flex;
     z-index: -1;
-    width: 1000px;
+    width: 100%;
 }
 
 .cyber-news a {
-    position: relative;
-    top: 0;
+    position: fixed;
 }
 .aoz-second {
     display: flex;
@@ -1213,11 +1211,11 @@ p2 {
 }
 .cyber-first {
     position: relative;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    display: grid;
     text-align: center;
+    align-content: stretch;
+    justify-content: center;
+    justify-items: center;
 }
 .cyber-sum {
     color: #fff;
@@ -1227,6 +1225,11 @@ p2 {
     height: 300px;
     z-index: 1;
     filter: drop-shadow(2px 4px 6px black);
+}
+.cyber-news {
+    display: flex;
+    position: relative;
+    
 }
 .cyber-second {
     display: flex;
