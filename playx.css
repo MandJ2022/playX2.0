@@ -238,17 +238,17 @@ body {
     color: white;
 }
 .mvx {
-    display: flex;
+    display: grid;
     position: static;
+    align-items: flex-end;
+    justify-items: center;
 }
 .mvx img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    top: 666px;
-    position: fixed;
-    left: 647px;
+    object-fit: contain;
     background: transparent;
+    width: 331px;
+    padding-top: 554px;
+    position: fixed;
 }
 .second {
     width: 100%;
@@ -1368,4 +1368,5 @@ p17 {
     position: relative;
     justify-items: center;
     height: 49px;
+    padding-right: 10px;
 }
