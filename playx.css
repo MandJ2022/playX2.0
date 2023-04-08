@@ -414,7 +414,7 @@ header {
     background: transparent;
     position: relative;
     bottom: 327px;
-    padding: 25px;
+    padding-top: 4px;
 }
 
 ion-icon {
@@ -717,9 +717,9 @@ p {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 335px;
+    padding-top: 324px;
     background: #ffffff00;
-    height: 74vh;
+    height: 83vh;
 }
 .nav-link-profile {
     filter: brightness(100);
