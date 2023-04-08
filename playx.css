@@ -403,10 +403,10 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 304px;
+    padding-top: 328px;
     background: #ffffff00;
     animation: time ease forwards 11s;
-    height: 80vh;
+    height: 81vh;
 }
 
 .nav-item {
@@ -719,7 +719,7 @@ p {
     text-align: center;
     padding-top: 324px;
     background: #ffffff00;
-    height: 83vh;
+    height: 75vh;
 }
 .nav-link-profile {
     filter: brightness(100);
